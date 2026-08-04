@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android TV 横幅图标 320x180 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- 背景渐变 (深色) -->
+    <path
+        android:fillColor="#1a1a24"
+        android:pathData="M0,0h320v180H0z" />
+    <!-- App 图标背景 -->
+    <path
+        android:fillColor="#6366f1"
+        android:pathData="M40,40h60v60H40z"
+        android:strokeWidth="0" />
+    <path
+        android:fillColor="#818cf8"
+        android:pathData="M110,40h60v60h-60z"
+        android:strokeWidth="0" />
+    <!-- 文字 "AppStore" -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M120,120h120v30H120z" />
+</vector>
